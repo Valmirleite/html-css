@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: mediumpurple;
+            margin: 0px;
+        }
+        header{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(168, 12, 168);
+            padding: 2px;
+            box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.479);
+        }
+        nav > a{
+            color: bisque;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 25px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: rgb(196, 156, 156);
+        }
+        article > aside{
+            background-color: rgb(155, 152, 152);
+            font-weight: bolder;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: rgb(105, 88, 36);
+            padding:  3px;
+            font-weight: bolder;
+            text-align: center;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Projeto de Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Anime  Sexo  SexShopping</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias direto de Póvoa de Varzim</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem pariatur labore ullam dolores! Ut harum quaerat mollitia nostrum numquam laborum, voluptatem iusto non necessitatibus debitis beatae. Iste, soluta omnis?</p>
+                <aside>
+                    <p>Artigo escrito por Vahlmilk</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Valmir Leite</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
