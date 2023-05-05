@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 004</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        colgroup > col.impar{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio da Tabela - configuração de coluna</h1>
+    <table>
+        <colgroup>
+            <col class="impar">
+            <col>
+            <col class="impar">
+            <col>
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Estoquista</td>
+        </tr>
+        <tr>
+            <td>Hellen</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Balconista</td>
+        </tr>
+        <tr>
+            <td>Thatyana</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Tester</td>
+        </tr>
+    </table>
+</body>
+</html>
