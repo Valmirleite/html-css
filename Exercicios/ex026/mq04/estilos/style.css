@@ -4,7 +4,7 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;    
@@ -19,11 +19,11 @@ body{
 }
 main{
     background-color: rgba(255, 255, 255, 0.849);
-    width: 400px;
+    width: 300px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
-    padding: 10px;
+    
 }
 h1{
     text-align: center;
@@ -34,6 +34,7 @@ h1{
 img{
     display: block;
     margin: auto;
+    width: 120px;
 }
 
 img#phone{ display: block;}
