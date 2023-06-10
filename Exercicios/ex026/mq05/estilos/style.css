@@ -44,10 +44,11 @@ menu > ul > li > a{
 }
 menu > ul > li > a:hover{
     background-color: gray;
+    
 }
 
 main{
-    width: 80vw;
+    width: 90vw;
     background-color: white;
     margin: auto;
     margin-top: 8px;

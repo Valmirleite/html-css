@@ -4,15 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Desafio 001</title>
+    
+    <style>
+        body{
+            background-color: white;
+            width: 100vw;
+            height: 100vh;
+        }
+        html{
+            width: 90%;
+            
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            display: block;
+            background-color: lightblue;
+        }
+        div#d1 > p{
+            background-color: rgb(222, 224, 252);
+            width: 100px;
+            height: 120px;
+            text-align: center;
+            font-weight: bolder;
+            margin: auto;
+        }
+        div#d2 > img{
+            height: 300px;
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+        div#d2 > p{
+            display: block;
+            width: 450px;
+            margin: auto;
+            text-align: justify;
+            text-indent: 30px;
+        }
+        div#d3 > img{
+            position: relative;
+            left: 20%;
+        }
+        div#d4 > h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5em;
+            padding-left: 20px;
+        }
+        div#d4 > article{
+           text-align: center;
+        }
+        div#d4  li {
+            padding-left: 30px;
+        }
+        div#d5 h1{
+            background-color: white;
+        }
+        div#d5 > article{
+            width: 600px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 20px;
+            background-image: url(imagens/lgbt.png);
+            background-size: cover;
+            background-position: center center;
+            padding: 20px;
+            padding-top: -20px;
+            padding-bottom: 20px;
+        }
+        div#d5 > article > a {
+            color: white;
+        }
+        div#d6 ul{
+            width: 180px;
+            height: 280px;
+            background-color: pink;
+            margin: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+        }
+        div#d6 > ul >li{
+            padding: 4px;
+        }
+       div#d7 > p{
+        text-indent: 40px;
+        text-align: justify;
+        font-family: Helvetica, sans-serif;
+       }
+    </style>
 </head>
 <body>
-    <h1>Desafio das mensagens</h1>
-    <p>*Um <br>**Dois <br>***Três <br> ****Quatro</p>
     
-    <p>****Quatro <br> ***Três<br>**Dois <br> *Um</p>
-
-    <a href="Desafio2.html"> Ir para Desafio 2</a>
-    
+    <div id="d1">
+        <h1>Desafio das mensagens</h1>
+        <p>*Um <br>**Dois <br>***Três <br> ****Quatro</p>
+        
+        <p>****Quatro <br> ***Três<br>**Dois <br> *Um</p>
+    </div>
+    <div id="d2">
+        <h1>Desafio da Imagem</h1>
+        <p>Inserir Imagem é muito fácil em HTML, tanto no conteúdo quanto na aba do navegador, como Favicon.</p>
+        <img src="imagens/github-g.png" alt="mascote github">
+    </div>
+    <div id="d3">
+        <h1>Desafio do Mapa</h1>
+        <img src="imagens/mapa 1.png" alt=""> <img src="imagens/mapa 2.png" alt=""> <img src="imagens/mapa 3.png" alt=""><br> 
+        <img src="imagens/mapa 4.png" alt=""> <img src="imagens/mapa 5.png" alt=""> <img src="imagens/mapa 6.png" alt=""><br>
+        <img src="imagens/mapa 7.png" alt=""> <img src="imagens/mapa 8.png" alt=""> <img src="imagens/mapa 9.png" alt="">
+    </div>
+    <div id="d4">
+        <h1>Desafio do Emojis</h1>
+        <article>
+            <h2>Carinhas</h2>
+            <ul type="none">
+                <li>&#x1F636; código U+1F636</li>
+                <li>&#x1F97A; código U+1F97A</li>
+                <li>&#x1F440; código U+1F440</li>
+            </ul>
+            <h2>Animais</h2>
+            <ul type="none">
+                <li>&#x1F98A; código U+1F98A</li>
+                <li>&#x1F407; código U+1F407</li>
+                <li>&#x1F43C; código U+1F43C</li>
+            </ul>
+            <h2>Comidas</h2>
+            <ul type="none">
+                <li>&#x1F34C; código U+1F34C</li>
+                <li>&#x1F355; código U+1F355</li>
+                <li>&#x1F363; código U+1F363</li>
+            </ul>
+        </article>
+    </div>
+    <div id="d5">
+        <article>
+            <h1>Minhas Redes Sociais</h1>
+            <img src="imagens/meu perfil little.png" alt="">
+            <h2>Quem sou eu?</h2>
+            <p>Me chamo Valmir, sou estudane de TI, tenho 34 anos, Pernambucano e brasileiro, gay e solteiro, investidor. e quero conhecer o mundo.</p>
+             <img src="imagens/icone-linkedin.png" alt=""><a href="https://www.linkedin.com/in/valmir-leite-8b9b76222/" target="_blank" rel="external">Meu Perfil do linkedin</a><br>
+             <img src="imagens/icone-instagram.png"  alt=""> <a href="https://instagram.com/vahlmilk" target="_blank" rel="external"> Meu Perfil do Instagram</a><br>
+             <img src="imagens/icone-youtube.png" alt=""> <a href="https://www.youtube.com/channel/UC0r5EyRPsyeLgFA1D0nVaVQ" target="_blank" rel="external"> meu perfil no Youtube</a>
+        </article>
+    </div>
+    <div id="d6">
+        <h1>Tags em HTML</h1>
+        <ul>
+            <li><abbr title="Usa-se &lt;p&gt;">Paragráfo</abbr></li>
+            <li><abbr title="Usa-se &lt;h1...h6&gt;">Título</abbr></li>
+            <li><abbr title="Usa-se &lt;img&gt;">Imagem</abbr></li>
+            <li><abbr title="Usa-se &lt;abbr&gt;">Citar Siglas</abbr></li>
+            <li><abbr title="Usa-se &lt;!--&gt;">Comentário</abbr></li>
+            <li><abbr title="Usa-se &lt;ol&gt;">Lista Númeradas</abbr></li>
+            <li><abbr title="Usa-se &lt;ul&gt;">Listas com Demarcação</abbr></li>
+            <li><abbr title="Usa-se &lt;strong&gt;">Novo Negrito</abbr></li>
+        </ul>
+    </div>
+    <div id="d7">
+        <h1>Imagem Fléxivel</h1>
+        <p>Você está vendo uma Imagem Fléxivel, experimente alterar o tamanho da janela do seu navegador.</p>
+        <picture>
+            <source media="(max-width: 622px )" srcset="imagens/eu-p.png">
+            <source media="(max-width: 1050px)" srcset="imagens/eu-m.png">
+            <img src="imagens/eu-g.png" alt="Eu tamanho grande">
+        </picture>
+    </div>
 </body>
 </html>
